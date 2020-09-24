@@ -1,0 +1,25 @@
+.trainee_list {
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+    .header_title {
+      font-weight: bold;
+      font-size: 20px;
+    }
+  }
+  .main {
+    display: flex ;
+    flex-flow: row wrap;
+    padding-left: 15px;
+  }
+  .add_trainee {
+    display: block;
+    background-color: #eeeeee;
+    color: black;
+    width: 100px;
+    margin: 10px;
+    border: 1px solid black ;
+    font-size: 18px;
+  }
+}

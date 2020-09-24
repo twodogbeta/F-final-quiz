@@ -1,0 +1,21 @@
+.groups_list {
+  .header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 25px;
+    .headerLeft{
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .headerRight{
+      background-color: #ea5455;
+      color: white;
+      border: none;
+      height: 30px;
+      width : 120px
+    }
+
+  }
+
+
+}

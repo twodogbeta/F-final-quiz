@@ -1,0 +1,23 @@
+.group {
+  width: 95%;
+  height: 100px;
+  margin: 30px auto;
+  border: 1px solid;
+  .groupHeader {
+    height: 40%;
+    color: white;
+    background-color: #929bab;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    span {
+      width: auto;
+      height: 20px;
+    }
+  }
+  .groupMain {
+    display: flex;
+    width: 75%;
+    margin: 0px auto;
+  }
+}
