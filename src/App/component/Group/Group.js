@@ -19,6 +19,7 @@ class Group extends Component {
         this.setState({ inputValue: e.target.value });
     };
 
+    //TODO feedback: API请求没有抽取到单独的utils文件
     handleInputConfirm = () => {
         const { inputValue } = this.state;
         if (inputValue) {
@@ -44,6 +45,7 @@ class Group extends Component {
             return null;
         }
         return (
+            //TODO feedback: css class的命名格式不规范，应该是a-b这个格式。
             <div className="group">
                 <div className="groupHeader">
                     {this.state.inputVisible && (

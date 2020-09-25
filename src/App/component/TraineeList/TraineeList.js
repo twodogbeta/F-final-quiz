@@ -41,12 +41,14 @@ class TraineeList extends Component {
 
     render() {
         return (
+            //  TODO feedback: 没有使用section标签
             <div className="trainee_list">
                 <header className="header">
                     <span className="header_title">学员列表</span>
                 </header>
                 <main className="main">
                     {this.state.trainees.map((trainee) => (
+                        // TODO feedback: 列表元素没有使用ul li
                         <Trainee
                             key={trainee.id}
                             traineeId={trainee.id}

@@ -3,6 +3,7 @@ import axios from 'axios';
 import Group from '../Group/Group';
 import './GroupList.scss';
 
+//TODO feedback: 虽然GroupList存在于代码库里，但是实际上并没有用到
 class GroupList extends Component {
     constructor(props) {
         super(props);
